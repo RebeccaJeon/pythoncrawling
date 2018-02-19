@@ -14,3 +14,4 @@ data = jsonObject['DATA']
 for item in data:
     result = "{},{},{},{},{},{}".format(item['ACC_NM'], item['DATA1'], item['DATA2'], item['DATA3'], item['DATA4'], item['DATA5'])
     print(result)
+
